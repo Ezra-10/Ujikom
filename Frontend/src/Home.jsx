@@ -13,7 +13,7 @@ function Home() {
             <div className="todo-list">
 
                 <div className="no-record"><h2>No Tasks</h2></div>
-
+            
             </div>
 
         </div>
