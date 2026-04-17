@@ -1,15 +1,21 @@
 import React, { useEffect, useState } from "react";
-import Create from "./Create";
 import './App.css';
+import Create from "./Create";
 
 
 function Home() {
+    const [todos, setTodos] = useState([])
 
     return (
         <div className="home">
-            <div className="container">
-                <h1>Team Task Manager</h1>
+            <h1>Team Task Manager</h1>
+            <Create />
+            <div className="todo-list">
+
+                <div className="no-record"><h2>No Tasks</h2></div>
+
             </div>
+
         </div>
     )
 
